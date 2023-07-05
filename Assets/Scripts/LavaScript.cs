@@ -19,7 +19,7 @@ public class LavaScript : MonoBehaviour
     {
         Destroy(Player.player.gameObject);
         Player.player = Instantiate(playerPrefab, Player.saveZone.position, Quaternion.identity).GetComponent<Player>();
-        Debug.Log(other.gameObject);
+        //Debug.Log(other.gameObject);
         //other.transform.position = spawn.transform.position;
     }
 }
